@@ -5,9 +5,9 @@ Move around the slider and wait for your abstract image.
 
 Here an example
 
-abstract/abstract.jpg
+![Alt text](/relative/path/to/abstract/abstract.jpg?raw=true "Optional Title")
+
 
 Thank you for you interest.
 
-https://github.com/ivovacca/abstract/blob/master/abstract.jpg
 
