@@ -1,13 +1,16 @@
 # Abstract
 
-This is a small program that I wrote in JS. 
+Abstract is a small program that I wrote in pure JS.
+
 Move the sliders and have fun painting your abstract image.
 
-Here an example
+Here examples
 
-![Alt text](/relative/path/to/abstract/abstract.jpg?raw=true "Optional Title")
-![Alt text](/relative/path/to/abstract/abstract_2.jpg?raw=true "Optional Title")
+![Abstract canvas](https://github.com/ivovacca/abstract/blob/master/abstract.jpg?raw=true)
+
+![Abstract canvas](https://github.com/ivovacca/abstract/blob/master/abstract_2.jpg?raw=true)
+
+
+
 
 Thank you for your interest.
-
-
