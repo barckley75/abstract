@@ -7,13 +7,13 @@ I started this APP from a simple function that draws dots randomly on a canvas.
 
 The effect was nice, than I decided to build a simple UI.
 
-![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/abstract.jpg?)
+![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/abstract.jpg?raw=true)
 
 Basically when you press Start button, setInterval begins with its cicles and gets a new random position (in a certain range), assigned to x and y.
 
 This is the old version.
 
-![Abstract canvas](https://github.com/ivovacca/abstract/blob/master/Examples/abstract_5.jpg?)
+![Abstract canvas](https://github.com/ivovacca/abstract/blob/master/Examples/abstract_5.jpg?raw=true)
 
 I was looking for a blur that, when the circle is small it must be defined, and when it is big must be almost transparent.
 
@@ -25,11 +25,9 @@ I used some skills from my composting background to write this effect. This blur
 
 When you increase the radius, alpha tends to 0.
 
-![Abstract canvas](![Abstract canvas](https://github.com/ivovacca/abstract/blob/master/Examples/Canvas%20(1).png?raw=true)?raw=true)
-
-![Abstract canvas](![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas%20(2).png?raw=true)?raw=true)
-
-![Abstract canvas](![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas%20(4).png)?raw=true)
+![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas%20(1).png?raw=true)
+![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas%20(2).png?raw=true)
+![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas%20(4).png?raw=true)
 
 I found it an interesting result.
 
