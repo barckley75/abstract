@@ -1,5 +1,8 @@
 # Abstract
 
+                          ****** This APP works only on desktop browsers ******
+
+
 <h1>Be an artist with the Abstract APP. Well, almost.</h1>
 
 
