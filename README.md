@@ -56,13 +56,15 @@ Because the code was getting bigger, I decide wrote again all program, now it is
 
 This is the last version 1.2
 
-![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/UI%20version%201.1.jpg?raw=true)
+![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/version_1.2.jpg?raw=true)
 
 If you want to implement a color-picker, there a lots of project about it.
 
 I found this one https://tovic.github.io/color-picker simple and well done. Very interesting project.
 
 I implemented it in the online version. Take a look here https://ivovacca.com/abstract
+
+
 
 If you use the app, please post your abstract on Twitter with #abstract and let me know you impression.
 
