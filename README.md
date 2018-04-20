@@ -1,10 +1,13 @@
 # Abstract
 
-<h1></h1>
+<h1>Be an artist with the Abstract APP. Well, almost.</h1>
 
-<h1>What is Abstract?</h1>
 
-Abstract is a small APP, written in Javascript, that draws randomly circles. With this app you can get something like this:
+For sure you will get confident with the combination of colors, learning how to combine additive primary color to abtain other colors.
+
+<h2>What is Abstract?</h2>
+
+Written in Javascript, that draws randomly circles. With this app you can get something like this:
 
 ![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas.png?raw=true)
 
