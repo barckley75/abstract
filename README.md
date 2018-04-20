@@ -1,6 +1,6 @@
 # Abstract
 
-<h1>You can play <strong>Abstract</strong> here: ivovacca/abstract.com</h1>
+<h1>You can play <strong>Abstract</strong> here: <a href="ivovacca/abstract.com"></h1>
 
 
 I started this APP from a simple function that draws dots randomly on a canvas.
