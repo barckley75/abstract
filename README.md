@@ -3,9 +3,9 @@
 <h1>You can play <strong>Abstract</strong> here: ivovacca/abstract.com</h1>
 
 
-I started this APP from a simple function that draw dots randomly on a canvas.
+I started this APP from a simple function that draws dots randomly on a canvas.
 
-The effects was nice, than I decided to build a simple UI.
+The effect was nice, than I decided to build a simple UI.
 
 ![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/abstract.jpg?raw=true)
 
