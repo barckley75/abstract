@@ -26,7 +26,7 @@ Basically when you press Start button, setInterval begins with its cycles and ge
 
 ![Abstract canvas](https://github.com/ivovacca/abstract/blob/master/Examples/abstract_5.jpg?raw=true)
 
-I was looking for a effect blur that, when the circle is small it must be defined, and when it is big must be almost transparent.
+I was looking for a effect blur that, when the circle is small, it must be defined, and when it is big, it must be almost transparent.
 
 So I decided to try to implement Fibonacci for obteining a nice blur-glowing.
 
@@ -50,7 +50,7 @@ Because the code was getting bigger, I decide wrote again all program, now it is
 
 <h3>2: UICotroller = display everything</h3>
 
-<h3>3: controller = his job is to pass data between the first and the second.</h3>
+<h3>3: controller = his job is to pass data between the first and the second module.</h3>
 
 
 
@@ -62,7 +62,7 @@ If you want to implement a color-picker, there a lots of project about it.
 
 I found this one https://tovic.github.io/color-picker simple and well done. Very interesting project.
 
-I implemented it in the online versiion here https://ivovacca.com/abstract
+I implemented it in the online version. Take a look here https://ivovacca.com/abstract
 
 If you use the app, please post your abstract on Twitter with #abstract and let me know you impression.
 
@@ -70,4 +70,4 @@ Move the sliders and have fun painting your abstract image.
 
 Thank you very much for your interest.
 
-HINT: If you dont't choose a background color you can save the canvas with alpha.
+* HINT: If you dont't choose a background color you can save the canvas with alpha.
