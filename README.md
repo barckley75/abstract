@@ -10,7 +10,7 @@ For sure you will get confident with the combination of colors, learning how to 
 
 <h2>What is Abstract?</h2>
 
-Written in Javascript, that draws randomly circles. With this app you can get something like this:
+Written in Javascript, Abstract draws randomly circles on the canvas. With this app you can get something like this:
 
 ![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas.png?raw=true)
 
