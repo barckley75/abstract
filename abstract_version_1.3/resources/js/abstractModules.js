@@ -128,17 +128,13 @@ var UIController = (function (canvas, ctx) {
 
     // Paint
     function paint(radius, color) {
-        canvas.onmousedown = function (e) {
+        canvas.onmousedown = function () {
             isDrawing = true;
         };
         canvas.onmousemove = function (e) {
             if (isDrawing) {
                 var position = calculateMousePosition(e);
-                ctx.lineTo(position.x, position.y);
-                ctx.fillStyle = color;
-                ctx.beginPath();
-                ctx.arc(position.x, position.y, radius, 0, Math.PI * 2, true);
-                ctx.fill();
+                circle(position.x, position.y, radius, color);
             }
         };
         canvas.onmouseup = function () {
