@@ -1,0 +1,251 @@
+/* ************************************************************ */
+/* ************************* ABSTRACT ************************* */
+/* ********* draw an abstract with a random painter *********** */
+/* *********************** by Ivo Vacca *********************** */
+/* ************************************************************ */
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: 'arial',sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+header {
+    display: block;
+}
+
+/* ******************************** */
+/* TOP CONTROLS */
+/* ******************************** */
+
+.logo {
+    width: 200px;
+    padding-left: 2%;
+}
+/* Buttons */
+
+p {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#startPaint,
+#stopPaint, 
+#deleteBrush,
+#getData {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;;
+    color: white;
+    font-size: 30px;
+    border: 1px solid #555;
+}
+
+#startPaint {
+    background-color: #34915f;
+    border-radius: 30px;
+}
+
+#stopPaint {
+    background-color: rgb(103, 103, 103);
+    border-radius: 4px;
+}
+
+#deleteBrush {
+    background-color: #a74040;
+    border-radius: 30px;
+}
+
+#getData {
+    background-color: #a74040;
+    border-radius: 30px;
+}
+
+
+#brush:focus,
+#deleteBrush:focus,
+#startPaint:focus,
+#stopPaint:focus,
+#getData:focus {
+    outline: none;
+}
+
+#brush:hover,
+#deleteBrush:hover,
+#startPaint:hover,
+#stopPaint:hover,
+#getData:hover {
+    background-color: #bababa;
+}
+/* ******************************** */
+/* Panels */
+/* ******************************** */
+
+.topControls {
+    position: absolute;
+    top: 5px;
+    color: #555;
+}
+
+.buttons {
+    background-color: #ebebeb;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+}
+
+
+.leftControls,
+.rightControls,
+#dl,
+.picker {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 1%;
+    border: 1px solid #555;
+    color: #555;
+}
+
+.topControls {
+    margin-top: 2%;
+    display: block;
+    margin-left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.leftControls {
+    margin-top: 5.5%;
+    position: absolute;
+    left: 4%;
+}
+
+.rightControls,
+#dl,
+#fileUpload {
+    margin-top:5.5%;
+    position: absolute;
+    right: 4%;
+}
+
+.picker {
+    width: 129px;
+}
+
+#fileUpload {
+    margin-top: 23%;
+    right: -2%;
+}
+
+#dl {
+    top: 60%;
+    right: 7.8%;
+    width: 5%;
+    border-radius: 35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#dl:hover {
+    color: #1f1f1f;
+}
+
+a {
+    text-align: center;
+}
+
+/* ******************************** */
+/* Canvas */
+/* ******************************** */
+
+.canvasDisplay {
+    margin: 2% 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+}
+
+canvas {
+    position: absolute;
+    margin-left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    border-radius: 0px;
+    border: 2px solid #fff;
+    border: 1px solid #555;
+}
+
+#wait {
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+/* ******************************** */
+/* Colorpicker */
+/* ******************************** */
+
+body {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(img/abstract.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url(img/abstract.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+input {
+    height: 25px;
+}
+
+.version {
+    margin-top: 7px;
+    color: #555;
+    font-size: 12px;
+}
+
+.social {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    font-size: 25px;
+    list-style: none;
+}
+
+.social ul {
+    
+}
+
+.social li {
+    float: left;
+    display: block;
+}
+
+.social a {
+    padding: 10px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
