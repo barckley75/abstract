@@ -17,7 +17,7 @@ Written in Javascript, Abstract draws randomly circles on the canvas. With this 
 ![Abstract canvas](https://raw.githubusercontent.com/ivovacca/abstract/master/Examples/Canvas%20(5).png?raw=true)
 
 
-You can start immidiatly using <strong>Abstract</strong> here https://ivovacca.com/abstract
+You can start immidiatly using <strong>Abstract</strong> here https://ivovacca.com
 
 
 I started this APP from a simple function that draws dots randomly on a canvas.
